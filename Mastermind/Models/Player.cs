@@ -1,6 +1,8 @@
 ﻿namespace Mastermind.Models
 {
-    public class Players
+    public class Player
     {
+        public string PlayerId { get; set; }
+        public string Name { get; set; }
     }
 }
